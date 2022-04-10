@@ -1,9 +1,5 @@
 body {
-  background-color: rgb(128, 128, 128);
-}
-
-#title, .subtitle, .post_title, .post{
-  text-indent: 50px;
+  background-color: rgb(235, 232, 232);
 }
 
 #title{
@@ -11,12 +7,14 @@ body {
 }
 
 #title, .subtitle, .post_title {
-  color: rgb(0, 0, 255);
+  color: #505050;
 }
 
 .post_title {
   font-size: 16px;
   font-style: italic;
+  margin: 0;
+  margin-bottom: 15px;
 }
 
 .post{
@@ -30,11 +28,17 @@ body {
   border-radius: 5px;
 }
 
-.avatar{
+.photo{
   border-radius: 50%;
-  width: 500;
+  border: 1px solid #505050;
 }
 
-.banner{
+.post_image{
   border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.post_content{
+  margin: 0;
+  margin-bottom: 15px;
 }
