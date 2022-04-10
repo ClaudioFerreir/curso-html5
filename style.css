@@ -1,9 +1,17 @@
 body {
   background-color: rgb(235, 232, 232);
+  font-family: verdana;
 }
 
 #title{
   margin-bottom: 15px;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+a{
+  text-decoration: line-through;
+  color: #505050;
 }
 
 #title, .subtitle, .post_title {
@@ -41,4 +49,5 @@ body {
 .post_content{
   margin: 0;
   margin-bottom: 15px;
+  text-transform: capitalize;
 }
