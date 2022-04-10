@@ -2,8 +2,16 @@ body {
   background-color: rgb(128, 128, 128);
 }
 
+#title, .subtitle, .post_title, .post{
+  text-indent: 50px;
+}
+
+#title{
+  margin-bottom: 15px;
+}
+
 #title, .subtitle, .post_title {
-  color: rgb(0, 0, 255)
+  color: rgb(0, 0, 255);
 }
 
 .post_title {
@@ -14,11 +22,19 @@ body {
 .post{
   background-color: rgb(255, 255, 255);
   padding: 15px;
-  border: 3px solid #000;
+  border: 2px solid #505050;
   margin: 10px;
   margin-bottom: 15px;
+  text-align: justify;
+  line-height: 2;
+  border-radius: 5px;
 }
 
 .avatar{
   border-radius: 50%;
+  width: 500;
+}
+
+.banner{
+  border-radius: 5px;
 }
