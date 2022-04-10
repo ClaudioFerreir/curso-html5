@@ -1,6 +1,8 @@
 body {
   background-color: rgb(235, 232, 232);
   font-family: verdana;
+  max-width: 900px;
+  margin: auto;
 }
 
 #title{
@@ -43,12 +45,14 @@ a{
 .post_image{
   border-radius: 5px;
   margin-bottom: 15px;
+  width: 100%;
 }
 
 .post_content{
   margin: 0;
   margin-bottom: 15px;
   text-transform: capitalize;
+  text-align: justify;
 }
 
 .contact_list{
